@@ -1,6 +1,5 @@
 '''Some examples how to use NLTK with the Wordnet synsets'''
 import nltk
-import example
 from nltk.corpus import wordnet
 from nltk.corpus import names
 
