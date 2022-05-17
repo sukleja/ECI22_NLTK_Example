@@ -1,9 +1,10 @@
-'''Some examples how to use NLTK with the Wordnet synsets'''
+'''Some examples how to use NLTK with the Wordnet synsets
+NLTK homepage: https://www.nltk.org/'''
 import nltk
 from nltk.corpus import wordnet
 from nltk.corpus import names
 
-'''Downloading either with interactive downloader or directly by stating the module
+'''Downloading either with interactive downloader or directly by stating the module,
 has to be only done once and can be commented out after the download'''
 # nltk.download() #using the interactive downloader
 # nltk.download('wordnet') #downloading the specific package without interactive downloader
@@ -16,7 +17,8 @@ examples = []
 tag = ''
 word = "love"
 
-'''loads the cognitive synonyms for the word from the lexical database wordnet (called synsets in Wordnet)'''
+'''loads the cognitive synonyms for the word from the lexical database wordnet (called synsets in Wordnet)
+more information about the database: https://wordnet.princeton.edu/'''
 syns = wordnet.synsets(word)
 
 '''appending synonyms and antonyms to list
